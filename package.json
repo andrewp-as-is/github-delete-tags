@@ -1,0 +1,14 @@
+{
+  "name": "github-delete-tags",
+  "version": "2019.5.22",
+  "description": "delete github tags",
+  "keywords": [
+    "github",
+    "tags"
+  ],
+  "homepage": "https://github.com/andrewp-as-is/github-delete-tags",
+  "license": "Unlicense",
+  "bin": {
+    "github-delete-tags": "./scripts/github-delete-tags"
+  }
+}
