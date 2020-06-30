@@ -1,13 +1,8 @@
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+import setuptools
 
-
-setup(
+setuptools.setup(
     name='github-delete-tags',
-    version='2019.5.22',
-    scripts=[
-        'scripts/github-delete-tags',
-    ],
+    install_requires=open('requirements.txt').read().splitlines(),
+    packages=setuptools.find_packages(),
+    scripts=['scripts/github-delete-tags']
 )
